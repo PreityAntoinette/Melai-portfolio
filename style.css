@@ -1,0 +1,102 @@
+:root{
+    --background-color:#DC891A;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bahnschrift', 'DIN Alternate', 'Segoe UI', sans-serif;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.main-container{
+    display: flex;
+    gap: 2rem;
+    margin: 2rem;
+    align-items: center;
+}
+
+.navigation-bar{
+    border: 5px solid black;
+    padding: 1.5rem;
+    background-color: #EDE2DB;
+    padding-bottom: 5rem;
+}
+
+.navigation-bar img{
+    width: 10rem;
+    border: 5px solid #3283BD;
+    transform: scale(1.02);
+    margin-bottom: 1rem;
+}
+
+.navigation-bar ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    
+}
+
+.navigation-bar li{
+    width: 90%;
+    border: 4px solid black;
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.li-animation{background-color: #C02129;}
+.li-projects{background-color: #B44A26;}
+.li-digital{background-color: #DB8827;}
+.li-sketchbook{background-color: #9FA939;}
+.li-card{background-color: #3E65BA;}
+.li-guestbook{background-color: #D9A691;}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.name-container{
+    border: 5px solid black;
+    background-color: #EDE2DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-container img{
+    width: 36rem;
+}
+
+.description{
+    border: 5px solid black;
+    background-color: #EDE2DB;
+    padding: 0.5rem;
+    text-align: center;
+    box-shadow: 0px 8px 6px -6px rgba(0, 0, 0, 0.3);
+}
+
+.description p{
+    font-size: 1.2rem;
+}
+
+.design img{
+    height: 14rem;
+    box-shadow: 0px 8px 6px -6px rgba(0, 0, 0, 0.3);
+}
